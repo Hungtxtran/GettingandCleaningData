@@ -10,7 +10,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 1. Download and unzip it, we will get the Folder name "UCI HAR Dataset"
 2. Set "UCI HAR Dataset" as your working directory in R and place the run_analysis.R in this folder.
-3. Verify your working directory by getwd() command:
-[1] "D:/E-Learning/Coursera/Data Science/Getting and Cleaning Data/Course Project/UCI HAR Dataset"
+3. Verify your working directory by getwd() command (Below is output from my console)
+	[1] "D:/E-Learning/Coursera/Data Science/Getting and Cleaning Data/Course Project/UCI HAR Dataset"
 4. Run the entire run_analysis.R to get the final tidy data set 
 5. Detailed explanations are commented within the run_analysis.R
