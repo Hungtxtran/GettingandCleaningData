@@ -4,7 +4,7 @@ In this repository, we have three files:
 1. run_analysis.R
 2. README.md
 3. Codebook.md
-
+---
 Here are the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
