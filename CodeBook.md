@@ -1,3 +1,2 @@
----
-title: "Code Book for Getting and Cleaing Data course project"
----
+Code Book for Getting and Cleaing Data course project
+------
