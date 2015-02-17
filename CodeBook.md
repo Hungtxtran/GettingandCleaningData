@@ -2,19 +2,11 @@ Code Book for Getting and Cleaing Data course project
 ------
 This CodeBook explains the steps and variables in run_analysis.R file
 
-There are three packages need to be installed and loaded are **tidyr**, **dplyr** and **data.table**
+1. There are three packages need to be installed and loaded are **tidyr**, **dplyr** and **data.table**
 
+2. Load the feature data in 'features.txt' file. Its data are measure names and used as column names
 
-# Read the list of features and name two columns with "Order" and "Feature"
-features<-read.table("features.txt",col.names=c("Order","Feature"),colClasses = c("integer","character"))
-
-#Replace all "()" in the Feature columns with empty character ""
-#It will make the column more readable
-features$Feature<-gsub("\\()","",features$Feature)
-
-#Read training and test sets
-#Read test set first, then train set,and combine them in the same order
-#Appropriately labels the data set with descriptive variable names by set the column names to features$Feature
+3. Load training and test sets in 'X_test.txt' and 'X_train.txt' (training set first, and test set after), then combine them into 'x_data' variable . At the same time, appropriately labels the data set with descriptive variable names by set the column names to features$Feature
 x_test<-read.table("./test/X_test.txt",col.names=features$Feature)
 
 x_train<-read.table("./train/X_train.txt",col.names=features$Feature)
