@@ -1,6 +1,17 @@
 Code Book for Getting and Cleaing Data course project
 ------
-This CodeBook explains the steps and variables in run_analysis.R file
+
+### Set working directory
+
+1. Download and unzip it, we will get the Folder name "UCI HAR Dataset"
+
+2. Set "UCI HAR Dataset" as your working directory in R and place the run_analysis.R in this folder.
+
+3. Verify your working directory by getwd() command (Below is output from my console) [1] "D:/E-Learning/Coursera/Data Science/Getting and Cleaning Data/Course Project/UCI HAR Dataset"
+
+4. Run the entire run_analysis.R to get the final tidy data set
+
+### Explanations for run_analysis.R
 
 1. There are three packages need to be installed and loaded are **tidyr**, **dplyr** and **data.table**
 
