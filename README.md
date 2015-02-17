@@ -15,4 +15,4 @@ Please follow these steps to successfully run the run_analysis.R file
 3. Verify your working directory by getwd() command (Below is output from my console)
 	[1] "D:/E-Learning/Coursera/Data Science/Getting and Cleaning Data/Course Project/UCI HAR Dataset"
 4. Run the entire run_analysis.R to get the final tidy data set 
-5. Detailed explanations are commented within the run_analysis.R
+5. Detailed explanations are commented within the run_analysis.R and CodeBook.md
