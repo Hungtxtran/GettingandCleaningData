@@ -1,9 +1,9 @@
 # GettingandCleaningData
 This repository is used for my course project in Getting and Cleaning Data classes.
 In this repository, we have three files:
-1. run_analysis.R
-2. README.md
-3. Codebook.md
+- run_analysis.R
+- README.md
+- Codebook.md
 
 Here are the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
