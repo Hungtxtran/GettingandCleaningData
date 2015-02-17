@@ -1,12 +1,14 @@
 # GettingandCleaningData
 This repository is used for my course project in Getting and Cleaning Data classes.
 In this repository, we have three files:
-	+ run_analysis.R
-	+ README.md
-	+ Codebook.md
+1. run_analysis.R
+2. README.md
+3. Codebook.md
 
 Here are the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+Please follow these steps to successfully run the run_analysis.R file
 
 1. Download and unzip it, we will get the Folder name "UCI HAR Dataset"
 2. Set "UCI HAR Dataset" as your working directory in R and place the run_analysis.R in this folder.
