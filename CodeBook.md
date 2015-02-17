@@ -1,7 +1,7 @@
 Code Book for Getting and Cleaing Data course project
 ------
 
-### Set working directory
+### Working directory for run_analysis.R file
 
 1. Download and unzip it, we will get the Folder name "UCI HAR Dataset"
 
@@ -11,7 +11,7 @@ Code Book for Getting and Cleaing Data course project
 
 4. Run the entire run_analysis.R to get the final tidy data set
 
-### Explanations for run_analysis.R
+### Explanations for steps and variables in run_analysis.R file
 
 1. There are three packages need to be installed and loaded are **tidyr**, **dplyr** and **data.table**
 
