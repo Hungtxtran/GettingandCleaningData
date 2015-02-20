@@ -65,3 +65,6 @@ tidydataset<-dataset[,lapply(.SD,mean),by=c("Subject","Activity")] %>%
 
           gather(Measure,Mean_value,-Subject,-Activity)
 
+
+# Write tidy data set into tidydataset.txt with relevant arguments
+write.table(tidydataset, "tidydataset.txt",row.names=FALSE,quote=FALSE,col.names=TRUE)
