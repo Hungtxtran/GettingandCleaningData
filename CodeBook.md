@@ -32,3 +32,5 @@ Code Book for Getting and Cleaing Data course project
 9. Merges the subject, y data, std and mean training and the test sets to create one data set **dataset**. Then, covert the data frame to data table class. We can do it by using `cbind`, `%>%` and `as.data.table` 
 
 10. Lastly, we creat tidy data **tidydataset** with the average of each variable for each activity and each subject using `lapply(.SD,mean)`. Reorder them based on Subject `setorder(Subject)` and Gather them based on Subject and Activity `gather(Measure,Mean_value,-Subject,-Activity)`. We use `%>%` to chain all the results
+ 
+11. Finally, Write the tidy data set into `tidydataset.txt` with `write.table()` command and relevant arguments
